@@ -1,0 +1,138 @@
+*,html,body{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	font-family: 'Slabo 27px', serif;
+    	background-image: url('img/background1.jpg') ;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+		font-size: 20px;
+		
+        	}
+	
+	
+	/* FONT AWESOME */
+	.icons .fa-facebook{
+    	color: #3b5999;
+	}
+	.icons .fa-github{
+    	color: white;
+	}
+	.icons .fa-envelope{
+    	color: #6b5b95;
+	}
+	
+	
+        	/* NAME: PRINTASSIA*/
+	.name-header{
+    	margin-top: 20px;
+	}
+        	/* FIRST PARAGRAPH: */
+        	.header-text{
+            	width: 500px;
+            	position: relative;
+            	
+            	}
+	/* SECOND PARAGRAPH */
+        	.header-text2{
+            	margin-top: -50px;
+            	margin-bottom: 50px;
+            	width: 500px;
+            	
+        	}
+        	/* IMAGE*/
+        	.image{
+            	width: 360px;
+            	height: 400px;
+            	margin-right: 40px;
+            	opacity: 0.9;
+            	border-radius: 12px;
+    	}
+	
+	.image-div{
+    	margin-top: -180px;
+	}
+              	
+           	
+	.skills{
+    	margin-top: -100px;
+    
+	} 
+	.interest{
+    	margin-top: -90px;
+    	
+	} 
+	
+/* WORK */
+	
+	.other-header, .projects{
+		margin-left: 50px;
+		
+		
+	}
+
+	.row{
+		margin-top: 20px;
+		}
+		
+		.col-sm .btn{
+		margin-bottom: 50px;
+		}
+
+		#git1,#git2,#git3{
+			padding-left: 10px;
+			position: relative;
+			bottom: 20px;
+			font-size: 30px;
+		}
+	
+	/* .......................................... */
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+        body,html{
+            overflow-x: hidden;
+        }
+   	.name-header{
+        	position: relative;
+        	top: 20px;
+    	}
+     	
+	.header-text{
+	width: 450px;
+	font-size: 19pt;
+	
+    	}
+	
+	.header-text2{
+	margin-top: 430px;
+	margin-right: 50px;
+	font-size: 19pt;
+	width: 410px;
+       	}
+	
+	.image-div{
+        	position: absolute;
+        	top: 500px;
+        	padding-left: 50px;
+        	width: 300px;
+		}
+		
+		.other-header{
+		color: white !important;
+		}
+    
+	}
+
+	@media only screen and (min-width: 600px) {
+
+    	.image-div{
+        	position: relative;
+        	top: 40px;  	
+		}
+	
+	
+	} 
+
+
